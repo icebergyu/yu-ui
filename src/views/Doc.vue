@@ -10,6 +10,6 @@
 <script lang="ts">
 import Topnav from "../components/Topnav.vue";
 export default {
-  comments: { Topnav },
+  components: { Topnav },
 };
 </script>
