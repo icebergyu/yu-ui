@@ -19,7 +19,9 @@
           </li>
         </ol>
       </aside>
-      <main>主体</main>
+      <main>
+        <router-view />
+      </main>
     </div>
   </div>
 </template>
