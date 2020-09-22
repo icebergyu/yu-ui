@@ -1,21 +1,14 @@
 <template>
   <div>
-    Switch的文档
-    <p>Switch的文档</p>
-    <p>Switch的文档</p>
-    <p>Switch的文档</p>
-    <p>Switch的文档</p>
-    <p>Switch的文档</p>
-    <p>Switch的文档</p>
-    <p>Switch的文档</p>
-    <p>Switch的文档</p>
-    <p>Switch的文档</p>
-    <p>Switch的文档</p>
+    <Switch />
   </div>
 </template>
 
-<script>
-export default {};
+<script lang="ts">
+import Switch from "../lib/Switch.vue";
+export default {
+  components: { Switch },
+};
 </script>
 
 <style lang="scss" scoped>
