@@ -1,5 +1,17 @@
 <template>
-  <div>Switch组件</div>
+  <div>
+    Switch的文档
+    <p>Switch的文档</p>
+    <p>Switch的文档</p>
+    <p>Switch的文档</p>
+    <p>Switch的文档</p>
+    <p>Switch的文档</p>
+    <p>Switch的文档</p>
+    <p>Switch的文档</p>
+    <p>Switch的文档</p>
+    <p>Switch的文档</p>
+    <p>Switch的文档</p>
+  </div>
 </template>
 
 <script>
