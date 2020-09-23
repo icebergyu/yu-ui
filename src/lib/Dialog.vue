@@ -4,12 +4,11 @@
     <div class="yu-dialog-wrapper">
       <div class="yu-dialog">
         <header>
-          标题
+          <slot name="title" />
           <span @click="close" class="yu-dialog-close"></span>
         </header>
         <main>
-          <p>第一行</p>
-          <p>第二行</p>
+          <slot name="content" />
         </main>
         <footer>
           <Button level="main" @click="ok">OK</Button>
@@ -48,7 +47,9 @@ export default {
         close();
       }
     };
-    const cancel = () => {};
+    const cancel = () => {
+      close();
+    };
     return { close, closeOnClickOverlay, ok, cancel };
   },
 };
