@@ -11,6 +11,7 @@
         >
           {{ t }}
         </div>
+        <div class="yu-tabs-nav-indicator"></div>
       </div>
       <div class="yu-tabs-content">
         <component
@@ -60,6 +61,7 @@ $border-color: #d9d9d9;
     display: flex;
     color: $color;
     border-bottom: 1px solid $border-color;
+    position: relative;
     &-item {
       padding: 8px 0;
       margin: 0 16px;
@@ -70,6 +72,14 @@ $border-color: #d9d9d9;
       &.selected {
         color: $blue;
       }
+    }
+    &-indicator {
+      position: absolute;
+      height: 3px;
+      background: $blue;
+      left: 0;
+      bottom: -1px;
+      width: 100px;
     }
   }
   &-content {
